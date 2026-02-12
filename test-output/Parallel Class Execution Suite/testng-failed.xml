@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Parallel Class Execution Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Parallel Class Execution Test(failed)">
+    <classes>
+      <class name="com.parallel.tests.EdgeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickOrders"/>
+        </methods>
+      </class> <!-- com.parallel.tests.EdgeTest -->
+      <class name="com.parallel.tests.ChromeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickOrders"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.parallel.tests.ChromeTest -->
+    </classes>
+  </test> <!-- Parallel Class Execution Test(failed) -->
+</suite> <!-- Failed suite [Parallel Class Execution Suite] -->
