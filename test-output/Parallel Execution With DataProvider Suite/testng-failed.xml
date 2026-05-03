@@ -6,7 +6,7 @@
       <class name="com.parallel.tests.ParallelTestWithDataProviders">
         <methods>
           <include name="setup"/>
-          <include name="testLogin" invocation-numbers="0 1"/>
+          <include name="testLogin" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.parallel.tests.ParallelTestWithDataProviders -->

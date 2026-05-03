@@ -8,13 +8,23 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Parallel Execution With DataProvider Suite</th></tr>
-<tr><td><a href="#t0">Parallel Execution With DataProvider Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,993</td><td></td><td></td></tr>
+<tr><th colspan="8">Parallel Test Execution Suite</th></tr>
+<tr><td><a href="#t0">Parallel Test Chrome</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">38,319</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Parallel Test Edge</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,744</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Parallel Test Parallel</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">49,422</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">133,485</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel Execution With DataProvider Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parallel Execution With DataProvider Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.parallel.tests.ParallelTestWithDataProviders</td><td><a href="#m0">testLogin</a></td><td rowspan="3">1770921198498</td><td rowspan="3">1399</td></tr><tr class="passedeven"><td><a href="#m1">testLogin</a></td></tr><tr class="passedeven"><td><a href="#m2">testLogin</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel Test Execution Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parallel Test Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.parallel.tests.ChromeTest</td><td><a href="#m0">clickOffers</a></td><td rowspan="1">1777822292851</td><td rowspan="1">3375</td></tr><tr class="passedeven"><td><a href="#m1">clickOrders</a></td><td rowspan="1">1777822296230</td><td rowspan="1">5912</td></tr><tr class="passedeven"><td><a href="#m2">testTitle</a></td><td rowspan="1">1777822292768</td><td rowspan="1">72</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Parallel Test Edge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.parallel.tests.EdgeTest</td><td><a href="#m3">clickOffers</a></td><td rowspan="1">1777822293382</td><td rowspan="1">3812</td></tr><tr class="passedeven"><td><a href="#m4">clickOrders</a></td><td rowspan="1">1777822297198</td><td rowspan="1">6336</td></tr><tr class="passedeven"><td><a href="#m5">testTitle</a></td><td rowspan="1">1777822293334</td><td rowspan="1">34</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Parallel Test Parallel &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.parallel.tests.ParallelTest</td><td><a href="#m6">testChrome</a></td><td rowspan="1">1777822293803</td><td rowspan="1">22270</td></tr><tr class="passedeven"><td><a href="#m7">testEdge</a></td><td rowspan="1">1777822267232</td><td rowspan="1">26564</td></tr></tbody>
 </table>
-<h2>Parallel Execution With DataProvider Test</h2><h3 id="m0">com.parallel.tests.ParallelTestWithDataProviders#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user3</td><td>pass3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.parallel.tests.ParallelTestWithDataProviders#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user1</td><td>pass1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.parallel.tests.ParallelTestWithDataProviders#testLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user2</td><td>pass2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Parallel Test Chrome</h2><h3 id="m0">com.parallel.tests.ChromeTest#clickOffers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.parallel.tests.ChromeTest#clickOrders</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.parallel.tests.ChromeTest#testTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Parallel Test Edge</h2><h3 id="m3">com.parallel.tests.EdgeTest#clickOffers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.parallel.tests.EdgeTest#clickOrders</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.parallel.tests.EdgeTest#testTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Parallel Test Parallel</h2><h3 id="m6">com.parallel.tests.ParallelTest#testChrome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.parallel.tests.ParallelTest#testEdge</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -13,7 +13,7 @@
 		<java.version>17</java.version>
 		<testng.version>7.10.2</testng.version>
 		<selenium.version>4.20.0</selenium.version>
-		<webdrivermanager.version>6.3.2</webdrivermanager.version>
+		<webdrivermanager.version>6.3.4</webdrivermanager.version>
 		<junit.version>4.13.2</junit.version>
 		<allure.version>2.25.0</allure.version>
 		<extent.version>5.1.1</extent.version>
