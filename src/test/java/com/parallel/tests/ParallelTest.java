@@ -34,7 +34,7 @@ public class ParallelTest {
 		Assert.assertEquals(driver.getTitle(), "StackDemo"); 
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void close() {
 		if (driver != null) {
 			driver.quit();
